@@ -1,0 +1,2 @@
+com/example/Test_Project_2/MainPageTest.java
+ com.example.Test_Project_2.MainPageTest

@@ -1,0 +1,212 @@
+[1610113308.230][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 26479
+[1610113308.230][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610113308.560][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/vzmcv/IdeaProjects/Test_project_2/build/downloads/1610113307514_5170_14",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/vzmcv/IdeaProjects/Test_project_2/build/downloads/1610113307514_5170_14",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610113308.561][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/vzmcv/IdeaProjects/Test_project_2/build/downloads/1610113307514_5170_14"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610113308.561][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610113308.562][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/30/53hwv0td1j1ck19dl2tflr8r0000gn/T/.com.google.Chrome.NYYxBo data:,
+[1610113309.886][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1610113309.895][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1610113309.950][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.141",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "/var/folders/30/53hwv0td1j1ck19dl2tflr8r0000gn/T/.com.google.Chrome.NYYxBo"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50148"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2b3759becfd9cfcd6a16899de77ba393"
+}
+[1610113310.029][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND MaximizeWindow {
+
+}
+[1610113310.029][INFO]: Waiting for pending navigations...
+[1610113310.031][INFO]: Done waiting for pending navigations. Status: ok
+[1610113310.151][INFO]: Waiting for pending navigations...
+[1610113310.151][INFO]: Done waiting for pending navigations. Status: ok
+[1610113310.151][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE MaximizeWindow {
+   "height": 1095,
+   "width": 1792,
+   "x": 0,
+   "y": 25
+}
+[1610113310.156][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610113310.156][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE SetTimeouts
+[1610113310.163][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND Navigate {
+   "url": "https://www.google.com/"
+}
+[1610113310.163][INFO]: Waiting for pending navigations...
+[1610113310.164][INFO]: Done waiting for pending navigations. Status: ok
+[1610113310.391][INFO]: Waiting for pending navigations...
+[1610113311.446][INFO]: Done waiting for pending navigations. Status: ok
+[1610113311.446][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE Navigate
+[1610113311.456][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[title=\"Search\"]"
+}
+[1610113311.456][INFO]: Waiting for pending navigations...
+[1610113311.457][INFO]: Done waiting for pending navigations. Status: ok
+[1610113311.464][INFO]: Waiting for pending navigations...
+[1610113311.465][INFO]: Done waiting for pending navigations. Status: ok
+[1610113311.465][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "7cbe5e4f-5953-47e0-8c3f-f81bd51641aa"
+}
+[1610113311.471][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND TypeElement {
+   "id": "7cbe5e4f-5953-47e0-8c3f-f81bd51641aa",
+   "text": "Selenium practice",
+   "value": [ "S", "e", "l", "e", "n", "i", "u", "m", " ", "p", "r", "a", "c", "t", "i", "c", "e" ]
+}
+[1610113311.471][INFO]: Waiting for pending navigations...
+[1610113311.472][INFO]: Done waiting for pending navigations. Status: ok
+[1610113311.549][INFO]: Waiting for pending navigations...
+[1610113311.552][INFO]: Done waiting for pending navigations. Status: ok
+[1610113311.552][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE TypeElement
+[1610113311.647][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND GetTitle {
+
+}
+[1610113311.647][INFO]: Waiting for pending navigations...
+[1610113311.649][INFO]: Done waiting for pending navigations. Status: ok
+[1610113311.651][INFO]: Waiting for pending navigations...
+[1610113311.652][INFO]: Done waiting for pending navigations. Status: ok
+[1610113311.652][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE GetTitle "Google"
+[1610113311.655][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND Navigate {
+   "url": "https://www.google.com/"
+}
+[1610113311.655][INFO]: Waiting for pending navigations...
+[1610113311.655][INFO]: Done waiting for pending navigations. Status: ok
+[1610113311.850][INFO]: Waiting for pending navigations...
+[1610113312.888][INFO]: Done waiting for pending navigations. Status: ok
+[1610113312.888][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE Navigate
+[1610113312.911][INFO]: [2b3759becfd9cfcd6a16899de77ba393] COMMAND Quit {
+
+}
+[1610113312.961][INFO]: [2b3759becfd9cfcd6a16899de77ba393] RESPONSE Quit
