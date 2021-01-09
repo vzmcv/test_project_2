@@ -33,6 +33,7 @@ public class MainPageTest {
         $(byId("center_col")).findElement(byXpath("//*[@href='https://www.seleniumeasy.com/test/']")).click();
 
         // test git commit + comment on browser
+        // test git commit master
 
 
     }
