@@ -34,6 +34,7 @@ public class MainPageTest {
 
         // test git commit + comment on browser
         // test git commit master
+        // test git commit + comment on browser + test commit branch 1
 
 
     }
